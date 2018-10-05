@@ -7,6 +7,18 @@
 
 using namespace std;
 
+class Operation{
+public:
+    int id;
+    string descricao;
+    float saldo;
+    
+    Operation(int id = 0,string descricao = "" , float saldo = 00):
+        id(id),descricao(descricao),saldo(saldo){
+        
+    }
+    
+};
 
 class Cliente
 {
