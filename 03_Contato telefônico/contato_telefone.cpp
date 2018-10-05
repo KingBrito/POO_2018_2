@@ -6,10 +6,9 @@
 
 using namespace std;
 class Telefone
-{   
-    private:
+{   public:
     string label,fone;
-    public:
+    
     Telefone(string label = "", string fone = "") : fone(fone), label(label)
     {
     }
@@ -98,47 +97,50 @@ class Contato
 
 class Master{
     Contato contatos;
-        string makestream(string line){
-            Contato contatos;
-            string op;
-            stringstream userIn;
-            stringstream userOut;
 
-            while (1)
+    string makestream(string line){
+        string op;
+        stringstream userIn(line);
+        stringstream userOut;
+
+        while (1)
+        {
+            cin >> op;
+            if (op == "help")
             {
-                cin >> op;
-                if (op == "help")
-                {
-                    userOut << "help ;init ;add ;del";
-                }
-                else if ("init")
-                {
-                    string nome;
-                    userIn >> nome;
-                    if (contatos.init(nome))
-                        userOut << "  done";
-                }
-                else if (op == "add")
-                {
-                    string label, fone;
-                    userIn >> label >> fone;
-                    if (contatos.add(Telefone(label, fone)))
-                        userOut << "  done";
-                }
+                userOut << "help ;init ;add ;del";
             }
-            return userOut.str();
+            else if ("init")
+            {
+                string nome;
+                userIn >> nome;
+                if (contatos.init(nome))
+                    userOut << "  done";
+            }
+            else if (op == "add")
+            {
+                string label, fone;
+                userIn >> label >> fone;
+                if (contatos.add(Telefone(label, fone)))
+                    userOut << "  done";
+            }
+            else if (op == "show"){
+                contatos.toString();
+            }
         }
+        return userOut.str();
+    }
 
-        void exec(){
-            string line;
-            while(true){
-                getline(cin,line);
-                if(line == "end")
-                    break;
-                cout << line << endl;
-                cout << "  " << makestream.line() << endl;
-            }
+    void exec(){
+        string line;
+        while(true){
+            getline(cin,line);
+            if(line == "end")
+                break;
+            cout << line << endl;
+            cout << "  " << makestream(line) << endl;
         }
+    }
 };
 
 
