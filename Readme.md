@@ -80,15 +80,20 @@ método toString(),
   
 ## 05_Tamagochi
 ### 01-O que você fez ?
-
+  Os metodos restantes do trabalho, que foram o play(),sleep(),eat() e o cleaner(), em que todos esses metodos pertencem a classe Pet{...}.
+ 
 ### 02-Com quem e como você fez ?
-
+  Fiz sozinho
+  
 ### 03-O que aprendeu e sabe fazer ? 
+  Separar o codigo em arquivos para que seja mais legivel e pratico para ser modificado posteriormente.
 
 ### 04-O que tem dificuldade ainda ?
+  Não se manifestou nenhuma dificuldade.
 
 ### 05-Quanto tempo levou pra fazer a atividade 
-
+  O tempo estimado foi de 2:00 horas
+  
 ## 06_Agiota gente fina
 ### 01-O que você fez ?
 
