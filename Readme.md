@@ -106,17 +106,18 @@ método toString(),
 ### 05-Quanto tempo levou pra fazer a atividade 
 
   
-## 07_
+## 07_ Refazer com repositorio (Agiota)
 ### 01-O que você fez ?
-
+ -Fiz todos os requisitos pedidos. Criei as classes Repository{...},Agiota{...},Cliente{...},Transaction{...} e Master{...}. A classse a Repository {...} com os metodos void add(), v& get(), bool existe(),void remove(),vector<K> getKeys(),vector<V> getValue(),vector<pair<K,V>> getKValue(). A classe a Cliente{...}  fiz os getters e setters para os atributos,ostream &operator<<(ostream& os, Cliente cliente). A classe Agiota {...} fiz os getters e setters para os atributos,     void pushTransaction(string idCli,float value), void receber(string idCli, float value), void emprestar(string idCli,float value)
+. A classe Transaction{...} fiz os getters e setters para os atributos, friend ostream &operator<<( ostream& os, Transaction tt).
 ### 02-Com quem e como você fez ?
-
+ -Fiz sozinho. Com meus conhecimentos.
 ### 03-O que aprendeu e sabe fazer ? 
-
+ -A implementar o conceito de CRUD e template.
 ### 04-O que tem dificuldade ainda ?
-
+ -As duvidas que apereceram foram tiradas
 ### 05-Quanto tempo levou pra fazer a atividade 
-
+ -Em media 4-5 hrs para resolver
   
 ## 08_Repositorio 1
 ### 01-O que você fez ?
