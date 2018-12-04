@@ -48,22 +48,6 @@ método toString(),
   
 ## 04_Conta bancaria
 ### 01-O que você fez ?
- -fiz o código com a classe Banco com os metodos saque(),deposito(),init() e extrato() e com outra classe chamada  Master que faz o controle da entrada e saída de dados.
-
-### 02-Com quem e como você fez ?
- -Fiz sozinho. Com meus conhecimentos
-  
-### 03-O que aprendeu e sabe fazer ? 
- -Os conceitos get() e set em POO
-  
-### 04-O que tem dificuldade ainda ?
- -Nenhuma dificuldade se manisfestou na construção do problema.
-  
-### 05-Quanto tempo levou pra fazer a atividade 
- -Cerca de 2 hora
-  
-## 04_Conta bancaria
-### 01-O que você fez ?
  -Fiz o código com a classe Banco com os metodos saque(),deposito(),init() e extrato() e com outra classe chamada  Master que faz o controle da entrada e saída de dados.
 
 ### 02-Com quem e como você fez ?
